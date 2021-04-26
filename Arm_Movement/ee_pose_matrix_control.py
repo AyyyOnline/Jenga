@@ -2,8 +2,7 @@ from interbotix_xs_modules.arm import InterbotixManipulatorXS
 import numpy as np
 
 # This script makes the end-effector go to a specific pose only possible with a 6dof arm using a transformation matrix
-#
-# To get started, open a terminal and type 'roslaunch interbotix_xsarm_control xsarm_control.launch robot_model:=wx250s'
+# roslaunch interbotix_xsarm_control xsarm_control.launch robot_model:=rx150 in a terminal
 # Then change to this directory and type 'python ee_pose_matrix_control.py'
 
 def main():
