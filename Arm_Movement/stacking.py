@@ -2,8 +2,7 @@ from interbotix_xs_modules.arm import InterbotixManipulatorXS
 import numpy as np
 
 # This script makes the end-effector perform pick, pour, and place tasks
-#
-# To get started, open a terminal and type 'roslaunch interbotix_xsarm_control xsarm_control.launch robot_model:=wx250'
+# roslaunch interbotix_xsarm_control xsarm_control.launch robot_model:=rx150 in a terminal
 # Then change to this directory and type 'python bartender.py'
 
 def main():
