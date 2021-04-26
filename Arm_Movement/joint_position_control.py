@@ -1,9 +1,7 @@
 from interbotix_xs_modules.arm import InterbotixManipulatorXS
 
 # This script commands some arbitrary positions to the arm joints
-#
-# To get started, open a terminal and type...
-# 'roslaunch interbotix_xsarm_control xsarm_control.launch robot_model:=wx250s'
+# roslaunch interbotix_xsarm_control xsarm_control.launch robot_model:=rx150 in a terminal
 # Then change to this directory and type 'python joint_position_control.py'
 
 def main():
