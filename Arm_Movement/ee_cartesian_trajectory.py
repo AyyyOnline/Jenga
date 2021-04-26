@@ -1,9 +1,8 @@
 from interbotix_xs_modules.arm import InterbotixManipulatorXS
 
 # This script makes the end-effector draw a square in 3D space
-#
-# To get started, open a terminal and type 'roslaunch interbotix_xsarm_control xsarm_control.launch robot_model:=wx250'
-# Then change to this directory and type 'python ee_cartesian_trajectory.py'
+# open a terminal and type 'roslaunch interbotix_xsarm_control xsarm_control.launch robot_model:=rx150'
+# change to this directory and type 'python ee_cartesian_trajectory.py'
 
 def main():
     bot = InterbotixManipulatorXS("rx150", "arm", "gripper")
